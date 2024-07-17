@@ -46,6 +46,33 @@ The official token address will be included here! Only use the oficial reference
 
 This project is licensed under the Creative Commons Attribution 4.0 International License (CC-BY-4.0). See the LICENSE file for details.
 
+## Dependencies
+
+### Backup Wizard template readme to avoid it being overwritten
+
+```shell
+$ mv README.md README-oz.md
+```
+
+### Initialize sample Foundry project
+
+```shell
+$ forge init --force --no-commit --quiet
+```
+
+### Install OpenZeppelin Contracts and Upgrades
+
+```shell
+$ forge install OpenZeppelin/openzeppelin-contracts-upgradeable@v5.0.2 --no-commit --quiet
+$ forge install OpenZeppelin/openzeppelin-foundry-upgrades --no-commit --quiet
+```
+
+### Restore README
+
+```shell
+$ mv README-oz.md README.md
+```
+
 ## ✍️ Authors <a name = "authors"></a>
 
 -   [@malledugean](https://github.com/malledugean)
