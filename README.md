@@ -34,8 +34,8 @@ This project implements an ERC-20 token named Absolon (ABS) on the Ethereum bloc
 
 **Features:**
 
-*   Compliant with the ERC-20 standard for token functionalities.
-*   Uses 18 decimals for token representation.
+-   Compliant with the ERC-20 standard for token functionalities.
+-   Uses 18 decimals for token representation.
 
 ### Security:
 
